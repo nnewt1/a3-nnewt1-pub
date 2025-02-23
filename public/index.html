@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>CS4241 Assignment 4</title>
+    <meta charset="utf-8">
+    <script src="js/main.js"></script>
+<!--    <script src="https://cdn.tailwindcss.com"></script>-->
+    <link rel="stylesheet" href="css/output.css">
+
+    <!-- get rid of favicon error -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>Assignment To-Do List</h1>
+<nav>
+    <a href="/logout">Logout</a>
+</nav>
+<form id="assignmentform">
+    <div class="formfields">
+        <label for="assignmentname">Assignment: </label><input type="text" id="assignmentname" name="assignmentname" value="">
+        <label>Class: </label>
+        <div>
+            <input type="radio" id="Webware" name="classname" value=""><label for="Webware">Webware</label>
+        </div>
+        <div>
+            <input type="radio" id="OOAD" name="classname" value=""><label for="OOAD">OOAD</label>
+        </div>
+        <div>
+            <input type="radio" id="ID2050" name="classname" value=""><label for="ID2050">ID2050</label>
+        </div>
+        <label for="deadline">Deadline: </label><input type="date" id="deadline" name="deadline" value="">
+    </div>
+    <br>
+    <button>submit</button>
+</form>
+<br>
+<table id="datadisplay">
+    <tr>
+        <th>Assignment</th>
+        <th>Class</th>
+        <th>Deadline</th>
+        <th>Priority</th>
+        <th>Actions</th>
+    </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+/* Tailwind CSS updates */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply bg-darkslategray text-white font-roboto flex flex-col items-center;
+}
+
+nav {
+    @apply flex gap-5 mt-5 justify-end;
+}
+
+button {
+    @apply bg-slategray text-white p-2.5 rounded-md;
+}
+
+form {
+    @apply bg-slategray p-5;
+}
+
+.formfields {
+    @apply flex flex-col gap-2.5;
+}
+
+#assignmentname {
+    @apply text-black;
+}
+
+#deadline {
+    @apply text-black;
+}
+
+#datadisplay {
+    @apply p-5 bg-slategray;
+}
+
+#datadisplay th,
+#datadisplay td {
+    @apply p-2.5;
+}
