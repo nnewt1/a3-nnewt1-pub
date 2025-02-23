@@ -36,7 +36,7 @@ let DBCollection = null;
  * Connects to the MongoDB database
  */
 async function connectToDB() {
-    const uri = `mongodb+srv://${mongoUser}:${mongoPass}@${mongoHost}`;
+    const uri = `mongodb+srv://${mongoUser}:${mongoPass}@${mongoHost}/?retryWrites=true&w=majority&appName=Webware`;
     const client = new MongoClient(uri);
 
     // Note that this connect call is not intended for use in production
