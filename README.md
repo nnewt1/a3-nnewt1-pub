@@ -2,7 +2,7 @@
 
 ## NEW README HERE
 
-Vercel Link: 
+Render Link: https://a3-nnewt1.onrender.com
 
 This project is a simple to-do list maker. The key differences from A2 are the use of MongoDB to store data associated with a user and the use of GitHub OAuth for user authentication.
 I was able to get the GitHub OAuth to work, and I was able to get the MongoDB connection to work. I was able to create users in the database and store to-do list items associated with a user.
@@ -11,7 +11,7 @@ I used GitHub OAuth because I had used it for A4 successfully. I used TailwindCS
 
 ## Technical Achievements
 - **Tech Achievement 1**: Used GitHub OAuth to sign in. Alexander Beck's passport-github-demo repository was a massive help in getting this to work.
-- **Tech Achievement 2**: Used Vercel to host instead of Glitch. Like the interface and deployment process better with Vercel, and it seems to be better integrated with GitHub.
+- **Tech Achievement 2**: Used Render to host instead of Glitch. Like the interface and deployment process better with Render, and it seems to be better integrated with GitHub.
 
 ## Design/Evaluation Achievements
 - N/A
